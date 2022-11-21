@@ -1,0 +1,264 @@
+[0.000000] (-) TimerEvent: {}
+[0.000000] (mediapipe_ros) JobQueued: {'identifier': 'mediapipe_ros', 'dependencies': OrderedDict()}
+[0.000000] (mediapipe_ros) JobStarted: {'identifier': 'mediapipe_ros'}
+[0.110000] (-) TimerEvent: {}
+[0.219000] (-) TimerEvent: {}
+[0.329000] (-) TimerEvent: {}
+[0.438000] (mediapipe_ros) JobProgress: {'identifier': 'mediapipe_ros', 'progress': 'cmake'}
+[0.438000] (-) TimerEvent: {}
+[0.438000] (mediapipe_ros) Command: {'cmd': ['C:\\opt\\ros\\humble\\x64\\Scripts\\cmake.EXE', 'C:\\Users\\engr-ugaif\\ros2_ws\\src\\ros2_mediapipe', '-DCMAKE_INSTALL_PREFIX=C:\\Users\\engr-ugaif\\ros2_ws\\install\\mediapipe_ros', '-G', 'Visual Studio 16 2019'], 'cwd': 'C:\\Users\\engr-ugaif\\ros2_ws\\build\\mediapipe_ros', 'env': OrderedDict([('ALLUSERSPROFILE', 'C:\\ProgramData'), ('AMENT_PREFIX_PATH', 'C:\\opt\\ros\\humble\\x64;c:\\opt\\ros\\humble\\x64'), ('APPDATA', 'C:\\Users\\engr-ugaif\\AppData\\Roaming'), ('ChocolateyInstall', 'C:\\ProgramData\\chocolatey'), ('ChocolateyLastPathUpdate', '133132084040268578'), ('CMAKE_PREFIX_PATH', 'C:\\opt\\ros\\humble\\x64\\tools\\vcpkg\\installed\\x64-windows;C:\\opt\\ros\\humble\\x64;c:\\opt\\ros\\humble\\x64\\tools\\vcpkg\\installed\\x64-windows;c:\\opt\\ros\\humble\\x64'), ('COLCON', '1'), ('COLCON_PREFIX_PATH', 'C:\\opt\\ros\\humble\\x64\\;c:\\opt\\ros\\humble\\x64\\'), ('CommandPromptType', 'Native'), ('CommonProgramFiles', 'C:\\Program Files\\Common Files'), ('CommonProgramFiles(x86)', 'C:\\Program Files (x86)\\Common Files'), ('CommonProgramW6432', 'C:\\Program Files\\Common Files'), ('COMPUTERNAME', 'ENGR300551D'), ('ComSpec', 'C:\\windows\\system32\\cmd.exe'), ('configsetroot', 'C:\\windows\\ConfigSetRoot'), ('DevEnvDir', 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\'), ('DriverData', 'C:\\Windows\\System32\\Drivers\\DriverData'), ('ExtensionSdkDir', 'C:\\Program Files (x86)\\Microsoft SDKs\\Windows Kits\\10\\ExtensionSDKs'), ('Framework40Version', 'v4.0'), ('FrameworkDir', 'C:\\Windows\\Microsoft.NET\\Framework64\\'), ('FrameworkDir64', 'C:\\Windows\\Microsoft.NET\\Framework64\\'), ('FrameworkVersion', 'v4.0.30319'), ('FrameworkVersion64', 'v4.0.30319'), ('GAZEBO_INCLUDE_PATH', 'c:\\opt\\ros\\humble\\x64\\include'), ('GAZEBO_LIB_PATH', 'c:\\opt\\ros\\humble\\x64\\include'), ('GAZEBO_MODEL_PATH', 'share\\gazebo-10\\models'), ('GAZEBO_PLUGIN_PATH', 'lib\\gazebo-10\\plugins'), ('GAZEBO_RESOURCE_PATH', 'share\\gazebo-10'), ('HOME', 'C:\\Users\\engr-ugaif'), ('HOMEDRIVE', 'C:'), ('HOMEPATH', '\\Users\\engr-ugaif'), ('IGN_GUI_PLUGIN_PATH', 'c:\\opt\\ros\\humble\\x64\\lib\\ign-gui-6\\plugins'), ('INCLUDE', 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include;C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.16299.0\\ucrt;C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.16299.0\\shared;C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.16299.0\\um;C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.16299.0\\winrt;C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.16299.0\\cppwinrt'), ('LIB', 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\lib\\x64;C:\\Program Files (x86)\\Windows Kits\\10\\lib\\10.0.16299.0\\ucrt\\x64;C:\\Program Files (x86)\\Windows Kits\\10\\lib\\10.0.16299.0\\um\\x64'), ('LIBPATH', 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\lib\\x64;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\lib\\x86\\store\\references;C:\\Program Files (x86)\\Windows Kits\\10\\UnionMetadata\\10.0.16299.0;C:\\Program Files (x86)\\Windows Kits\\10\\References\\10.0.16299.0;C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319'), ('LOCALAPPDATA', 'C:\\Users\\engr-ugaif\\AppData\\Local'), ('LOGONSERVER', '\\\\WP-MYDC01'), ('NIDAQmxSwitchDir', 'C:\\Program Files (x86)\\National Instruments\\NI-DAQ\\Switch\\'), ('NIEXTCCOMPILERSUPP', 'C:\\Program Files (x86)\\National Instruments\\Shared\\ExternalCompilerSupport\\C\\'), ('NI_MO_INSTALL_PATH', 'C:\\Users\\Public\\Documents\\National Instruments\\model_optimizer\\'), ('NUMBER_OF_PROCESSORS', '16'), ('OGRE_RESOURCE_PATH', 'c:\\opt\\ros\\humble\\x64\\bin'), ('OneDrive', 'C:\\Users\\engr-ugaif\\OneDrive'), ('OneDriveConsumer', 'C:\\Users\\engr-ugaif\\OneDrive'), ('OS', 'Windows_NT'), ('OV_MO_INSTALL_PATH', 'C:\\Users\\Public\\Documents\\National Instruments\\intel_model_optimizer\\'), ('OV_NI_PLUGIN_DIR', 'C:\\Program Files\\National Instruments\\Shared\\OpenVINO\\'), ('Path', 'C:\\opt\\ros\\humble\\x64\\opt\\rviz_ogre_vendor\\bin;C:\\opt\\ros\\humble\\x64\\tools\\vcpkg\\installed\\x64-windows\\bin;C:\\opt\\ros\\humble\\x64\\tools\\vcpkg;C:\\opt\\ros\\humble\\x64\\lib\\gazebo-10\\plugins;C:\\opt\\ros\\humble\\x64\\Scripts;C:\\opt\\ros\\humble\\x64\\bin;c:\\opt\\ros\\humble\\x64\\opt\\rviz_ogre_vendor\\bin;c:\\opt\\ros\\humble\\x64\\tools\\vcpkg\\installed\\x64-windows\\bin;c:\\opt\\ros\\humble\\x64\\tools\\vcpkg;c:\\opt\\ros\\humble\\x64\\lib\\gazebo-10\\plugins;c:\\opt\\ros\\humble\\x64\\Scripts;c:\\opt\\ros\\humble\\x64\\bin;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\VC\\VCPackages;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Current\\bin\\Roslyn;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\Tools\\devinit;C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.16299.0\\x64;C:\\Program Files (x86)\\Windows Kits\\10\\bin\\x64;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\\\MSBuild\\Current\\Bin;C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\Tools\\;C:\\Program Files\\National Instruments\\Shared\\OpenVINO\\;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\IVI Foundation\\VISA\\WinNT\\Bin\\;C:\\Program Files\\IVI Foundation\\VISA\\Win64\\Bin\\;C:\\Program Files (x86)\\National Instruments\\Shared\\LabVIEW CLI;C:\\Program Files (x86)\\IVI Foundation\\VISA\\WinNT\\Bin;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\engr-ugaif\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Users\\engr-ugaif\\AppData\\Local\\Programs\\Microsoft VS Code\\bin'), ('PATHEXT', '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'), ('PKG_CONFIG_PATH', 'C:\\opt\\ros\\humble\\x64\\lib\\pkgconfig;c:\\opt\\ros\\humble\\x64\\lib\\pkgconfig'), ('Platform', 'x64'), ('PROCESSOR_ARCHITECTURE', 'AMD64'), ('PROCESSOR_IDENTIFIER', 'Intel64 Family 6 Model 165 Stepping 5, GenuineIntel'), ('PROCESSOR_LEVEL', '6'), ('PROCESSOR_REVISION', 'a505'), ('ProgramData', 'C:\\ProgramData'), ('ProgramFiles', 'C:\\Program Files'), ('ProgramFiles(x86)', 'C:\\Program Files (x86)'), ('ProgramW6432', 'C:\\Program Files'), ('PROMPT', '$P$G'), ('PSModulePath', 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\windows\\system32\\WindowsPowerShell\\v1.0\\Modules'), ('PUBLIC', 'C:\\Users\\Public'), ('PYTHONPATH', 'C:\\opt\\ros\\humble\\x64\\Lib\\site-packages;C:\\opt\\ros\\humble\\x64\\lib\\python3.10\\dist-packages;c:\\opt\\ros\\humble\\x64\\Lib\\site-packages'), ('ROS_DISTRO', 'humble'), ('ROS_ETC_DIR', 'C:\\opt\\ros\\humble\\x64\\etc\\ros'), ('ROS_LOCALHOST_ONLY', '0'), ('ROS_PYTHON_VERSION', '3'), ('ROS_VERSION', '2'), ('RUBY_DLL_PATH', 'C:\\opt\\ros\\humble\\x64\\opt\\rviz_ogre_vendor\\bin;C:\\opt\\ros\\humble\\x64\\bin;c:\\opt\\ros\\humble\\x64\\opt\\rviz_ogre_vendor\\bin;c:\\opt\\ros\\humble\\x64\\bin'), ('SDF_PATH', 'C:\\opt\\ros\\humble\\x64\\share\\sdformat\\1.6;c:\\opt\\ros\\humble\\x64\\share\\sdformat\\1.6'), ('SESSIONNAME', 'Console'), ('SystemDrive', 'C:'), ('SystemRoot', 'C:\\windows'), ('TEMP', 'C:\\Users\\ENGR-U~1\\AppData\\Local\\Temp'), ('TMP', 'C:\\Users\\ENGR-U~1\\AppData\\Local\\Temp'), ('UCRTVersion', '10.0.16299.0'), ('UniversalCRTSdkDir', 'C:\\Program Files (x86)\\Windows Kits\\10\\'), ('USERDNSDOMAIN', 'MSMYID.UGA.EDU'), ('USERDOMAIN', 'MYID'), ('USERDOMAIN_ROAMINGPROFILE', 'MYID'), ('USERNAME', 'engr-ugaif'), ('USERPROFILE', 'C:\\Users\\engr-ugaif'), ('VCIDEInstallDir', 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\VC\\'), ('VCINSTALLDIR', 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\'), ('VCPKG_DEFAULT_TRIPLET', 'x64-windows'), ('VCPKG_ROOT', 'C:\\opt\\ros\\humble\\x64\\tools\\vcpkg'), ('VCToolsInstallDir', 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\'), ('VCToolsRedistDir', 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Redist\\MSVC\\14.29.30133\\'), ('VCToolsVersion', '14.29.30133'), ('VisualStudioVersion', '16.0'), ('VS160COMNTOOLS', 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\Tools\\'), ('VSCMD_ARG_app_plat', 'Desktop'), ('VSCMD_ARG_HOST_ARCH', 'x64'), ('VSCMD_ARG_TGT_ARCH', 'x64'), ('VSCMD_VER', '16.11.20'), ('VSINSTALLDIR', 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\'), ('VXIPNPPATH', 'C:\\Program Files (x86)\\IVI Foundation\\VISA\\'), ('VXIPNPPATH64', 'C:\\Program Files\\IVI Foundation\\VISA\\'), ('windir', 'C:\\windows'), ('WindowsLibPath', 'C:\\Program Files (x86)\\Windows Kits\\10\\UnionMetadata\\10.0.16299.0;C:\\Program Files (x86)\\Windows Kits\\10\\References\\10.0.16299.0'), ('WindowsSdkBinPath', 'C:\\Program Files (x86)\\Windows Kits\\10\\bin\\'), ('WindowsSdkDir', 'C:\\Program Files (x86)\\Windows Kits\\10\\'), ('WindowsSDKLibVersion', '10.0.16299.0\\'), ('WindowsSdkVerBinPath', 'C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.16299.0\\'), ('WindowsSDKVersion', '10.0.16299.0\\'), ('__devinit_path', 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\Tools\\devinit\\devinit.exe'), ('__DOTNET_ADD_64BIT', '1'), ('__DOTNET_PREFERRED_BITNESS', '64'), ('__VSCMD_PREINIT_PATH', 'C:\\Program Files\\National Instruments\\Shared\\OpenVINO\\;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\IVI Foundation\\VISA\\WinNT\\Bin\\;C:\\Program Files\\IVI Foundation\\VISA\\Win64\\Bin\\;C:\\Program Files (x86)\\National Instruments\\Shared\\LabVIEW CLI;C:\\Program Files (x86)\\IVI Foundation\\VISA\\WinNT\\Bin;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\engr-ugaif\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Users\\engr-ugaif\\AppData\\Local\\Programs\\Microsoft VS Code\\bin')]), 'shell': False}
+[0.547000] (-) TimerEvent: {}
+[0.657000] (-) TimerEvent: {}
+[0.766000] (-) TimerEvent: {}
+[0.875000] (-) TimerEvent: {}
+[0.985000] (-) TimerEvent: {}
+[1.094000] (-) TimerEvent: {}
+[1.204000] (-) TimerEvent: {}
+[1.313000] (-) TimerEvent: {}
+[1.422000] (-) TimerEvent: {}
+[1.516000] (mediapipe_ros) StdoutLine: {'line': b'-- Selecting Windows SDK version 10.0.16299.0 to target Windows 10.0.19044.\n'}
+[1.532000] (-) TimerEvent: {}
+[1.641000] (-) TimerEvent: {}
+[1.750000] (-) TimerEvent: {}
+[1.860000] (-) TimerEvent: {}
+[1.969000] (-) TimerEvent: {}
+[2.079000] (-) TimerEvent: {}
+[2.188000] (-) TimerEvent: {}
+[2.297000] (-) TimerEvent: {}
+[2.407000] (-) TimerEvent: {}
+[2.516000] (-) TimerEvent: {}
+[2.625000] (-) TimerEvent: {}
+[2.735000] (-) TimerEvent: {}
+[2.844000] (-) TimerEvent: {}
+[2.954000] (-) TimerEvent: {}
+[3.063000] (-) TimerEvent: {}
+[3.172000] (-) TimerEvent: {}
+[3.282000] (-) TimerEvent: {}
+[3.391000] (-) TimerEvent: {}
+[3.500000] (-) TimerEvent: {}
+[3.610000] (-) TimerEvent: {}
+[3.719000] (-) TimerEvent: {}
+[3.829000] (-) TimerEvent: {}
+[3.938000] (-) TimerEvent: {}
+[4.047000] (-) TimerEvent: {}
+[4.157000] (-) TimerEvent: {}
+[4.266000] (-) TimerEvent: {}
+[4.375000] (-) TimerEvent: {}
+[4.485000] (-) TimerEvent: {}
+[4.594000] (-) TimerEvent: {}
+[4.704000] (-) TimerEvent: {}
+[4.813000] (-) TimerEvent: {}
+[4.922000] (-) TimerEvent: {}
+[5.032000] (-) TimerEvent: {}
+[5.141000] (-) TimerEvent: {}
+[5.250000] (-) TimerEvent: {}
+[5.360000] (-) TimerEvent: {}
+[5.469000] (-) TimerEvent: {}
+[5.579000] (-) TimerEvent: {}
+[5.688000] (-) TimerEvent: {}
+[5.797000] (-) TimerEvent: {}
+[5.907000] (-) TimerEvent: {}
+[6.016000] (-) TimerEvent: {}
+[6.125000] (-) TimerEvent: {}
+[6.235000] (-) TimerEvent: {}
+[6.344000] (-) TimerEvent: {}
+[6.454000] (-) TimerEvent: {}
+[6.563000] (-) TimerEvent: {}
+[6.672000] (-) TimerEvent: {}
+[6.782000] (-) TimerEvent: {}
+[6.891000] (-) TimerEvent: {}
+[6.938000] (mediapipe_ros) StdoutLine: {'line': b'-- The C compiler identification is MSVC 19.29.30146.0\n'}
+[7.000000] (-) TimerEvent: {}
+[7.110000] (-) TimerEvent: {}
+[7.219000] (-) TimerEvent: {}
+[7.329000] (-) TimerEvent: {}
+[7.438000] (-) TimerEvent: {}
+[7.547000] (-) TimerEvent: {}
+[7.657000] (-) TimerEvent: {}
+[7.766000] (-) TimerEvent: {}
+[7.875000] (-) TimerEvent: {}
+[7.985000] (-) TimerEvent: {}
+[8.079000] (mediapipe_ros) StdoutLine: {'line': b'-- The CXX compiler identification is MSVC 19.29.30146.0\n'}
+[8.094000] (-) TimerEvent: {}
+[8.188000] (mediapipe_ros) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[8.204000] (-) TimerEvent: {}
+[8.313000] (-) TimerEvent: {}
+[8.422000] (-) TimerEvent: {}
+[8.532000] (-) TimerEvent: {}
+[8.641000] (-) TimerEvent: {}
+[8.750000] (-) TimerEvent: {}
+[8.860000] (-) TimerEvent: {}
+[8.969000] (-) TimerEvent: {}
+[9.079000] (-) TimerEvent: {}
+[9.188000] (-) TimerEvent: {}
+[9.204000] (mediapipe_ros) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[9.204000] (mediapipe_ros) StdoutLine: {'line': b'-- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/cl.exe - skipped\n'}
+[9.204000] (mediapipe_ros) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[9.219000] (mediapipe_ros) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[9.235000] (mediapipe_ros) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[9.297000] (-) TimerEvent: {}
+[9.407000] (-) TimerEvent: {}
+[9.516000] (-) TimerEvent: {}
+[9.625000] (-) TimerEvent: {}
+[9.735000] (-) TimerEvent: {}
+[9.844000] (-) TimerEvent: {}
+[9.954000] (-) TimerEvent: {}
+[10.063000] (-) TimerEvent: {}
+[10.172000] (-) TimerEvent: {}
+[10.235000] (mediapipe_ros) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[10.235000] (mediapipe_ros) StdoutLine: {'line': b'-- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/cl.exe - skipped\n'}
+[10.235000] (mediapipe_ros) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[10.235000] (mediapipe_ros) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[10.266000] (mediapipe_ros) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (C:/opt/ros/humble/x64/share/ament_cmake/cmake)\n'}
+[10.297000] (-) TimerEvent: {}
+[10.407000] (-) TimerEvent: {}
+[10.516000] (-) TimerEvent: {}
+[10.625000] (-) TimerEvent: {}
+[10.735000] (-) TimerEvent: {}
+[10.844000] (-) TimerEvent: {}
+[10.954000] (-) TimerEvent: {}
+[11.063000] (-) TimerEvent: {}
+[11.172000] (-) TimerEvent: {}
+[11.282000] (-) TimerEvent: {}
+[11.391000] (-) TimerEvent: {}
+[11.500000] (-) TimerEvent: {}
+[11.610000] (-) TimerEvent: {}
+[11.719000] (-) TimerEvent: {}
+[11.829000] (-) TimerEvent: {}
+[11.938000] (-) TimerEvent: {}
+[12.047000] (-) TimerEvent: {}
+[12.157000] (-) TimerEvent: {}
+[12.266000] (-) TimerEvent: {}
+[12.375000] (-) TimerEvent: {}
+[12.485000] (-) TimerEvent: {}
+[12.594000] (-) TimerEvent: {}
+[12.704000] (-) TimerEvent: {}
+[12.813000] (-) TimerEvent: {}
+[12.922000] (-) TimerEvent: {}
+[13.032000] (-) TimerEvent: {}
+[13.141000] (-) TimerEvent: {}
+[13.250000] (-) TimerEvent: {}
+[13.360000] (-) TimerEvent: {}
+[13.469000] (-) TimerEvent: {}
+[13.579000] (-) TimerEvent: {}
+[13.688000] (-) TimerEvent: {}
+[13.797000] (-) TimerEvent: {}
+[13.907000] (-) TimerEvent: {}
+[14.016000] (-) TimerEvent: {}
+[14.125000] (-) TimerEvent: {}
+[14.235000] (-) TimerEvent: {}
+[14.344000] (-) TimerEvent: {}
+[14.407000] (mediapipe_ros) StdoutLine: {'line': b'-- Found Python3: C:/opt/ros/humble/x64/python3.exe (found version "3.10.6") found components: Interpreter \n'}
+[14.454000] (-) TimerEvent: {}
+[14.563000] (-) TimerEvent: {}
+[14.672000] (-) TimerEvent: {}
+[14.782000] (-) TimerEvent: {}
+[14.891000] (-) TimerEvent: {}
+[15.000000] (-) TimerEvent: {}
+[15.110000] (-) TimerEvent: {}
+[15.219000] (-) TimerEvent: {}
+[15.297000] (mediapipe_ros) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.4 (C:/opt/ros/humble/x64/share/ament_lint_auto/cmake)\n'}
+[15.329000] (-) TimerEvent: {}
+[15.438000] (-) TimerEvent: {}
+[15.547000] (-) TimerEvent: {}
+[15.657000] (-) TimerEvent: {}
+[15.750000] (mediapipe_ros) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[15.766000] (-) TimerEvent: {}
+[15.782000] (mediapipe_ros) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[15.813000] (mediapipe_ros) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[15.829000] (mediapipe_ros) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[15.844000] (mediapipe_ros) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[15.875000] (-) TimerEvent: {}
+[15.938000] (mediapipe_ros) StdoutLine: {'line': b'-- Configuring done\n'}
+[16.000000] (-) TimerEvent: {}
+[16.110000] (-) TimerEvent: {}
+[16.172000] (mediapipe_ros) StdoutLine: {'line': b'-- Generating done\n'}
+[16.188000] (mediapipe_ros) StdoutLine: {'line': b'-- Build files have been written to: C:/Users/engr-ugaif/ros2_ws/build/mediapipe_ros\n'}
+[16.204000] (mediapipe_ros) CommandEnded: {'returncode': 0}
+[16.204000] (mediapipe_ros) JobProgress: {'identifier': 'mediapipe_ros', 'progress': 'build'}
+[16.204000] (mediapipe_ros) Command: {'cmd': ['C:\\opt\\ros\\humble\\x64\\Scripts\\cmake.EXE', '--build', 'C:\\Users\\engr-ugaif\\ros2_ws\\build\\mediapipe_ros', '--config', 'Release'], 'cwd': 'C:\\Users\\engr-ugaif\\ros2_ws\\build\\mediapipe_ros', 'env': {'ALLUSERSPROFILE': 'C:\\ProgramData', 'AMENT_PREFIX_PATH': 'C:\\opt\\ros\\humble\\x64;c:\\opt\\ros\\humble\\x64', 'APPDATA': 'C:\\Users\\engr-ugaif\\AppData\\Roaming', 'ChocolateyInstall': 'C:\\ProgramData\\chocolatey', 'ChocolateyLastPathUpdate': '133132084040268578', 'CMAKE_PREFIX_PATH': 'C:\\opt\\ros\\humble\\x64\\tools\\vcpkg\\installed\\x64-windows;C:\\opt\\ros\\humble\\x64;c:\\opt\\ros\\humble\\x64\\tools\\vcpkg\\installed\\x64-windows;c:\\opt\\ros\\humble\\x64', 'COLCON': '1', 'COLCON_PREFIX_PATH': 'C:\\opt\\ros\\humble\\x64\\;c:\\opt\\ros\\humble\\x64\\', 'CommandPromptType': 'Native', 'CommonProgramFiles': 'C:\\Program Files\\Common Files', 'CommonProgramFiles(x86)': 'C:\\Program Files (x86)\\Common Files', 'CommonProgramW6432': 'C:\\Program Files\\Common Files', 'COMPUTERNAME': 'ENGR300551D', 'ComSpec': 'C:\\windows\\system32\\cmd.exe', 'configsetroot': 'C:\\windows\\ConfigSetRoot', 'DevEnvDir': 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\', 'DriverData': 'C:\\Windows\\System32\\Drivers\\DriverData', 'ExtensionSdkDir': 'C:\\Program Files (x86)\\Microsoft SDKs\\Windows Kits\\10\\ExtensionSDKs', 'Framework40Version': 'v4.0', 'FrameworkDir': 'C:\\Windows\\Microsoft.NET\\Framework64\\', 'FrameworkDir64': 'C:\\Windows\\Microsoft.NET\\Framework64\\', 'FrameworkVersion': 'v4.0.30319', 'FrameworkVersion64': 'v4.0.30319', 'GAZEBO_INCLUDE_PATH': 'c:\\opt\\ros\\humble\\x64\\include', 'GAZEBO_LIB_PATH': 'c:\\opt\\ros\\humble\\x64\\include', 'GAZEBO_MODEL_PATH': 'share\\gazebo-10\\models', 'GAZEBO_PLUGIN_PATH': 'lib\\gazebo-10\\plugins', 'GAZEBO_RESOURCE_PATH': 'share\\gazebo-10', 'HOME': 'C:\\Users\\engr-ugaif', 'HOMEDRIVE': 'C:', 'HOMEPATH': '\\Users\\engr-ugaif', 'IGN_GUI_PLUGIN_PATH': 'c:\\opt\\ros\\humble\\x64\\lib\\ign-gui-6\\plugins', 'INCLUDE': 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include;C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.16299.0\\ucrt;C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.16299.0\\shared;C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.16299.0\\um;C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.16299.0\\winrt;C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.16299.0\\cppwinrt', 'LIB': 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\lib\\x64;C:\\Program Files (x86)\\Windows Kits\\10\\lib\\10.0.16299.0\\ucrt\\x64;C:\\Program Files (x86)\\Windows Kits\\10\\lib\\10.0.16299.0\\um\\x64', 'LIBPATH': 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\lib\\x64;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\lib\\x86\\store\\references;C:\\Program Files (x86)\\Windows Kits\\10\\UnionMetadata\\10.0.16299.0;C:\\Program Files (x86)\\Windows Kits\\10\\References\\10.0.16299.0;C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319', 'LOCALAPPDATA': 'C:\\Users\\engr-ugaif\\AppData\\Local', 'LOGONSERVER': '\\\\WP-MYDC01', 'NIDAQmxSwitchDir': 'C:\\Program Files (x86)\\National Instruments\\NI-DAQ\\Switch\\', 'NIEXTCCOMPILERSUPP': 'C:\\Program Files (x86)\\National Instruments\\Shared\\ExternalCompilerSupport\\C\\', 'NI_MO_INSTALL_PATH': 'C:\\Users\\Public\\Documents\\National Instruments\\model_optimizer\\', 'NUMBER_OF_PROCESSORS': '16', 'OGRE_RESOURCE_PATH': 'c:\\opt\\ros\\humble\\x64\\bin', 'OneDrive': 'C:\\Users\\engr-ugaif\\OneDrive', 'OneDriveConsumer': 'C:\\Users\\engr-ugaif\\OneDrive', 'OS': 'Windows_NT', 'OV_MO_INSTALL_PATH': 'C:\\Users\\Public\\Documents\\National Instruments\\intel_model_optimizer\\', 'OV_NI_PLUGIN_DIR': 'C:\\Program Files\\National Instruments\\Shared\\OpenVINO\\', 'Path': 'C:\\opt\\ros\\humble\\x64\\opt\\rviz_ogre_vendor\\bin;C:\\opt\\ros\\humble\\x64\\tools\\vcpkg\\installed\\x64-windows\\bin;C:\\opt\\ros\\humble\\x64\\tools\\vcpkg;C:\\opt\\ros\\humble\\x64\\lib\\gazebo-10\\plugins;C:\\opt\\ros\\humble\\x64\\Scripts;C:\\opt\\ros\\humble\\x64\\bin;c:\\opt\\ros\\humble\\x64\\opt\\rviz_ogre_vendor\\bin;c:\\opt\\ros\\humble\\x64\\tools\\vcpkg\\installed\\x64-windows\\bin;c:\\opt\\ros\\humble\\x64\\tools\\vcpkg;c:\\opt\\ros\\humble\\x64\\lib\\gazebo-10\\plugins;c:\\opt\\ros\\humble\\x64\\Scripts;c:\\opt\\ros\\humble\\x64\\bin;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\VC\\VCPackages;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Current\\bin\\Roslyn;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\Tools\\devinit;C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.16299.0\\x64;C:\\Program Files (x86)\\Windows Kits\\10\\bin\\x64;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\\\MSBuild\\Current\\Bin;C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\Tools\\;C:\\Program Files\\National Instruments\\Shared\\OpenVINO\\;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\IVI Foundation\\VISA\\WinNT\\Bin\\;C:\\Program Files\\IVI Foundation\\VISA\\Win64\\Bin\\;C:\\Program Files (x86)\\National Instruments\\Shared\\LabVIEW CLI;C:\\Program Files (x86)\\IVI Foundation\\VISA\\WinNT\\Bin;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\engr-ugaif\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Users\\engr-ugaif\\AppData\\Local\\Programs\\Microsoft VS Code\\bin', 'PATHEXT': '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC', 'PKG_CONFIG_PATH': 'C:\\opt\\ros\\humble\\x64\\lib\\pkgconfig;c:\\opt\\ros\\humble\\x64\\lib\\pkgconfig', 'Platform': 'x64', 'PROCESSOR_ARCHITECTURE': 'AMD64', 'PROCESSOR_IDENTIFIER': 'Intel64 Family 6 Model 165 Stepping 5, GenuineIntel', 'PROCESSOR_LEVEL': '6', 'PROCESSOR_REVISION': 'a505', 'ProgramData': 'C:\\ProgramData', 'ProgramFiles': 'C:\\Program Files', 'ProgramFiles(x86)': 'C:\\Program Files (x86)', 'ProgramW6432': 'C:\\Program Files', 'PROMPT': '$P$G', 'PSModulePath': 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\windows\\system32\\WindowsPowerShell\\v1.0\\Modules', 'PUBLIC': 'C:\\Users\\Public', 'PYTHONPATH': 'C:\\opt\\ros\\humble\\x64\\Lib\\site-packages;C:\\opt\\ros\\humble\\x64\\lib\\python3.10\\dist-packages;c:\\opt\\ros\\humble\\x64\\Lib\\site-packages', 'ROS_DISTRO': 'humble', 'ROS_ETC_DIR': 'C:\\opt\\ros\\humble\\x64\\etc\\ros', 'ROS_LOCALHOST_ONLY': '0', 'ROS_PYTHON_VERSION': '3', 'ROS_VERSION': '2', 'RUBY_DLL_PATH': 'C:\\opt\\ros\\humble\\x64\\opt\\rviz_ogre_vendor\\bin;C:\\opt\\ros\\humble\\x64\\bin;c:\\opt\\ros\\humble\\x64\\opt\\rviz_ogre_vendor\\bin;c:\\opt\\ros\\humble\\x64\\bin', 'SDF_PATH': 'C:\\opt\\ros\\humble\\x64\\share\\sdformat\\1.6;c:\\opt\\ros\\humble\\x64\\share\\sdformat\\1.6', 'SESSIONNAME': 'Console', 'SystemDrive': 'C:', 'SystemRoot': 'C:\\windows', 'TEMP': 'C:\\Users\\ENGR-U~1\\AppData\\Local\\Temp', 'TMP': 'C:\\Users\\ENGR-U~1\\AppData\\Local\\Temp', 'UCRTVersion': '10.0.16299.0', 'UniversalCRTSdkDir': 'C:\\Program Files (x86)\\Windows Kits\\10\\', 'USERDNSDOMAIN': 'MSMYID.UGA.EDU', 'USERDOMAIN': 'MYID', 'USERDOMAIN_ROAMINGPROFILE': 'MYID', 'USERNAME': 'engr-ugaif', 'USERPROFILE': 'C:\\Users\\engr-ugaif', 'VCIDEInstallDir': 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\VC\\', 'VCINSTALLDIR': 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\', 'VCPKG_DEFAULT_TRIPLET': 'x64-windows', 'VCPKG_ROOT': 'C:\\opt\\ros\\humble\\x64\\tools\\vcpkg', 'VCToolsInstallDir': 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\', 'VCToolsRedistDir': 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Redist\\MSVC\\14.29.30133\\', 'VCToolsVersion': '14.29.30133', 'VisualStudioVersion': '16.0', 'VS160COMNTOOLS': 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\Tools\\', 'VSCMD_ARG_app_plat': 'Desktop', 'VSCMD_ARG_HOST_ARCH': 'x64', 'VSCMD_ARG_TGT_ARCH': 'x64', 'VSCMD_VER': '16.11.20', 'VSINSTALLDIR': 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\', 'VXIPNPPATH': 'C:\\Program Files (x86)\\IVI Foundation\\VISA\\', 'VXIPNPPATH64': 'C:\\Program Files\\IVI Foundation\\VISA\\', 'windir': 'C:\\windows', 'WindowsLibPath': 'C:\\Program Files (x86)\\Windows Kits\\10\\UnionMetadata\\10.0.16299.0;C:\\Program Files (x86)\\Windows Kits\\10\\References\\10.0.16299.0', 'WindowsSdkBinPath': 'C:\\Program Files (x86)\\Windows Kits\\10\\bin\\', 'WindowsSdkDir': 'C:\\Program Files (x86)\\Windows Kits\\10\\', 'WindowsSDKLibVersion': '10.0.16299.0\\', 'WindowsSdkVerBinPath': 'C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.16299.0\\', 'WindowsSDKVersion': '10.0.16299.0\\', '__devinit_path': 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\Tools\\devinit\\devinit.exe', '__DOTNET_ADD_64BIT': '1', '__DOTNET_PREFERRED_BITNESS': '64', '__VSCMD_PREINIT_PATH': 'C:\\Program Files\\National Instruments\\Shared\\OpenVINO\\;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\IVI Foundation\\VISA\\WinNT\\Bin\\;C:\\Program Files\\IVI Foundation\\VISA\\Win64\\Bin\\;C:\\Program Files (x86)\\National Instruments\\Shared\\LabVIEW CLI;C:\\Program Files (x86)\\IVI Foundation\\VISA\\WinNT\\Bin;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\engr-ugaif\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Users\\engr-ugaif\\AppData\\Local\\Programs\\Microsoft VS Code\\bin', 'CL': '/MP'}, 'shell': False}
+[16.219000] (-) TimerEvent: {}
+[16.329000] (-) TimerEvent: {}
+[16.438000] (-) TimerEvent: {}
+[16.547000] (-) TimerEvent: {}
+[16.547000] (mediapipe_ros) StdoutLine: {'line': b'Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework\r\n'}
+[16.547000] (mediapipe_ros) StdoutLine: {'line': b'Copyright (C) Microsoft Corporation. All rights reserved.\r\n'}
+[16.547000] (mediapipe_ros) StdoutLine: {'line': b'\r\n'}
+[16.657000] (-) TimerEvent: {}
+[16.766000] (-) TimerEvent: {}
+[16.875000] (-) TimerEvent: {}
+[16.907000] (mediapipe_ros) StdoutLine: {'line': b'  Checking Build System\r\n'}
+[16.985000] (-) TimerEvent: {}
+[17.094000] (-) TimerEvent: {}
+[17.204000] (-) TimerEvent: {}
+[17.250000] (mediapipe_ros) StdoutLine: {'line': b'  Building Custom Rule C:/Users/engr-ugaif/ros2_ws/src/ros2_mediapipe/CMakeLists.txt\r\n'}
+[17.313000] (-) TimerEvent: {}
+[17.422000] (-) TimerEvent: {}
+[17.532000] (-) TimerEvent: {}
+[17.641000] (-) TimerEvent: {}
+[17.750000] (-) TimerEvent: {}
+[17.860000] (-) TimerEvent: {}
+[17.969000] (-) TimerEvent: {}
+[18.079000] (-) TimerEvent: {}
+[18.188000] (-) TimerEvent: {}
+[18.297000] (-) TimerEvent: {}
+[18.407000] (-) TimerEvent: {}
+[18.516000] (-) TimerEvent: {}
+[18.625000] (-) TimerEvent: {}
+[18.735000] (-) TimerEvent: {}
+[18.844000] (-) TimerEvent: {}
+[18.922000] (mediapipe_ros) StdoutLine: {'line': b'  running egg_info\r\n'}
+[18.922000] (mediapipe_ros) StdoutLine: {'line': b'  creating mediapipe_ros.egg-info\r\n'}
+[18.954000] (-) TimerEvent: {}
+[19.000000] (mediapipe_ros) StdoutLine: {'line': b'  writing mediapipe_ros.egg-info\\PKG-INFO\r\n'}
+[19.000000] (mediapipe_ros) StdoutLine: {'line': b'  writing dependency_links to mediapipe_ros.egg-info\\dependency_links.txt\r\n'}
+[19.000000] (mediapipe_ros) StdoutLine: {'line': b'  writing top-level names to mediapipe_ros.egg-info\\top_level.txt\r\n'}
+[19.000000] (mediapipe_ros) StdoutLine: {'line': b"  writing manifest file 'mediapipe_ros.egg-info\\SOURCES.txt'\r\n"}
+[19.063000] (-) TimerEvent: {}
+[19.172000] (-) TimerEvent: {}
+[19.219000] (mediapipe_ros) StdoutLine: {'line': b"  reading manifest file 'mediapipe_ros.egg-info\\SOURCES.txt'\r\n"}
+[19.219000] (mediapipe_ros) StdoutLine: {'line': b"  writing manifest file 'mediapipe_ros.egg-info\\SOURCES.txt'\r\n"}
+[19.266000] (mediapipe_ros) StdoutLine: {'line': b'  Building Custom Rule C:/Users/engr-ugaif/ros2_ws/src/ros2_mediapipe/CMakeLists.txt\r\n'}
+[19.282000] (-) TimerEvent: {}
+[19.391000] (-) TimerEvent: {}
+[19.438000] (mediapipe_ros) StdoutLine: {'line': b'  Building Custom Rule C:/Users/engr-ugaif/ros2_ws/src/ros2_mediapipe/CMakeLists.txt\r\n'}
+[19.500000] (-) TimerEvent: {}
+[19.579000] (mediapipe_ros) CommandEnded: {'returncode': 0}
+[19.579000] (mediapipe_ros) JobProgress: {'identifier': 'mediapipe_ros', 'progress': 'install'}
+[19.610000] (-) TimerEvent: {}
+[19.719000] (-) TimerEvent: {}
+[19.813000] (mediapipe_ros) Command: {'cmd': ['C:\\opt\\ros\\humble\\x64\\Scripts\\cmake.EXE', '--install', 'C:\\Users\\engr-ugaif\\ros2_ws\\build\\mediapipe_ros', '--config', 'Release'], 'cwd': 'C:\\Users\\engr-ugaif\\ros2_ws\\build\\mediapipe_ros', 'env': OrderedDict([('ALLUSERSPROFILE', 'C:\\ProgramData'), ('AMENT_PREFIX_PATH', 'C:\\opt\\ros\\humble\\x64;c:\\opt\\ros\\humble\\x64'), ('APPDATA', 'C:\\Users\\engr-ugaif\\AppData\\Roaming'), ('ChocolateyInstall', 'C:\\ProgramData\\chocolatey'), ('ChocolateyLastPathUpdate', '133132084040268578'), ('CMAKE_PREFIX_PATH', 'C:\\opt\\ros\\humble\\x64\\tools\\vcpkg\\installed\\x64-windows;C:\\opt\\ros\\humble\\x64;c:\\opt\\ros\\humble\\x64\\tools\\vcpkg\\installed\\x64-windows;c:\\opt\\ros\\humble\\x64'), ('COLCON', '1'), ('COLCON_PREFIX_PATH', 'C:\\opt\\ros\\humble\\x64\\;c:\\opt\\ros\\humble\\x64\\'), ('CommandPromptType', 'Native'), ('CommonProgramFiles', 'C:\\Program Files\\Common Files'), ('CommonProgramFiles(x86)', 'C:\\Program Files (x86)\\Common Files'), ('CommonProgramW6432', 'C:\\Program Files\\Common Files'), ('COMPUTERNAME', 'ENGR300551D'), ('ComSpec', 'C:\\windows\\system32\\cmd.exe'), ('configsetroot', 'C:\\windows\\ConfigSetRoot'), ('DevEnvDir', 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\'), ('DriverData', 'C:\\Windows\\System32\\Drivers\\DriverData'), ('ExtensionSdkDir', 'C:\\Program Files (x86)\\Microsoft SDKs\\Windows Kits\\10\\ExtensionSDKs'), ('Framework40Version', 'v4.0'), ('FrameworkDir', 'C:\\Windows\\Microsoft.NET\\Framework64\\'), ('FrameworkDir64', 'C:\\Windows\\Microsoft.NET\\Framework64\\'), ('FrameworkVersion', 'v4.0.30319'), ('FrameworkVersion64', 'v4.0.30319'), ('GAZEBO_INCLUDE_PATH', 'c:\\opt\\ros\\humble\\x64\\include'), ('GAZEBO_LIB_PATH', 'c:\\opt\\ros\\humble\\x64\\include'), ('GAZEBO_MODEL_PATH', 'share\\gazebo-10\\models'), ('GAZEBO_PLUGIN_PATH', 'lib\\gazebo-10\\plugins'), ('GAZEBO_RESOURCE_PATH', 'share\\gazebo-10'), ('HOME', 'C:\\Users\\engr-ugaif'), ('HOMEDRIVE', 'C:'), ('HOMEPATH', '\\Users\\engr-ugaif'), ('IGN_GUI_PLUGIN_PATH', 'c:\\opt\\ros\\humble\\x64\\lib\\ign-gui-6\\plugins'), ('INCLUDE', 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include;C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.16299.0\\ucrt;C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.16299.0\\shared;C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.16299.0\\um;C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.16299.0\\winrt;C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.16299.0\\cppwinrt'), ('LIB', 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\lib\\x64;C:\\Program Files (x86)\\Windows Kits\\10\\lib\\10.0.16299.0\\ucrt\\x64;C:\\Program Files (x86)\\Windows Kits\\10\\lib\\10.0.16299.0\\um\\x64'), ('LIBPATH', 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\lib\\x64;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\lib\\x86\\store\\references;C:\\Program Files (x86)\\Windows Kits\\10\\UnionMetadata\\10.0.16299.0;C:\\Program Files (x86)\\Windows Kits\\10\\References\\10.0.16299.0;C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319'), ('LOCALAPPDATA', 'C:\\Users\\engr-ugaif\\AppData\\Local'), ('LOGONSERVER', '\\\\WP-MYDC01'), ('NIDAQmxSwitchDir', 'C:\\Program Files (x86)\\National Instruments\\NI-DAQ\\Switch\\'), ('NIEXTCCOMPILERSUPP', 'C:\\Program Files (x86)\\National Instruments\\Shared\\ExternalCompilerSupport\\C\\'), ('NI_MO_INSTALL_PATH', 'C:\\Users\\Public\\Documents\\National Instruments\\model_optimizer\\'), ('NUMBER_OF_PROCESSORS', '16'), ('OGRE_RESOURCE_PATH', 'c:\\opt\\ros\\humble\\x64\\bin'), ('OneDrive', 'C:\\Users\\engr-ugaif\\OneDrive'), ('OneDriveConsumer', 'C:\\Users\\engr-ugaif\\OneDrive'), ('OS', 'Windows_NT'), ('OV_MO_INSTALL_PATH', 'C:\\Users\\Public\\Documents\\National Instruments\\intel_model_optimizer\\'), ('OV_NI_PLUGIN_DIR', 'C:\\Program Files\\National Instruments\\Shared\\OpenVINO\\'), ('Path', 'C:\\opt\\ros\\humble\\x64\\opt\\rviz_ogre_vendor\\bin;C:\\opt\\ros\\humble\\x64\\tools\\vcpkg\\installed\\x64-windows\\bin;C:\\opt\\ros\\humble\\x64\\tools\\vcpkg;C:\\opt\\ros\\humble\\x64\\lib\\gazebo-10\\plugins;C:\\opt\\ros\\humble\\x64\\Scripts;C:\\opt\\ros\\humble\\x64\\bin;c:\\opt\\ros\\humble\\x64\\opt\\rviz_ogre_vendor\\bin;c:\\opt\\ros\\humble\\x64\\tools\\vcpkg\\installed\\x64-windows\\bin;c:\\opt\\ros\\humble\\x64\\tools\\vcpkg;c:\\opt\\ros\\humble\\x64\\lib\\gazebo-10\\plugins;c:\\opt\\ros\\humble\\x64\\Scripts;c:\\opt\\ros\\humble\\x64\\bin;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\VC\\VCPackages;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Current\\bin\\Roslyn;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\Tools\\devinit;C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.16299.0\\x64;C:\\Program Files (x86)\\Windows Kits\\10\\bin\\x64;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\\\MSBuild\\Current\\Bin;C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\Tools\\;C:\\Program Files\\National Instruments\\Shared\\OpenVINO\\;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\IVI Foundation\\VISA\\WinNT\\Bin\\;C:\\Program Files\\IVI Foundation\\VISA\\Win64\\Bin\\;C:\\Program Files (x86)\\National Instruments\\Shared\\LabVIEW CLI;C:\\Program Files (x86)\\IVI Foundation\\VISA\\WinNT\\Bin;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\engr-ugaif\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Users\\engr-ugaif\\AppData\\Local\\Programs\\Microsoft VS Code\\bin'), ('PATHEXT', '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'), ('PKG_CONFIG_PATH', 'C:\\opt\\ros\\humble\\x64\\lib\\pkgconfig;c:\\opt\\ros\\humble\\x64\\lib\\pkgconfig'), ('Platform', 'x64'), ('PROCESSOR_ARCHITECTURE', 'AMD64'), ('PROCESSOR_IDENTIFIER', 'Intel64 Family 6 Model 165 Stepping 5, GenuineIntel'), ('PROCESSOR_LEVEL', '6'), ('PROCESSOR_REVISION', 'a505'), ('ProgramData', 'C:\\ProgramData'), ('ProgramFiles', 'C:\\Program Files'), ('ProgramFiles(x86)', 'C:\\Program Files (x86)'), ('ProgramW6432', 'C:\\Program Files'), ('PROMPT', '$P$G'), ('PSModulePath', 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\windows\\system32\\WindowsPowerShell\\v1.0\\Modules'), ('PUBLIC', 'C:\\Users\\Public'), ('PYTHONPATH', 'C:\\opt\\ros\\humble\\x64\\Lib\\site-packages;C:\\opt\\ros\\humble\\x64\\lib\\python3.10\\dist-packages;c:\\opt\\ros\\humble\\x64\\Lib\\site-packages'), ('ROS_DISTRO', 'humble'), ('ROS_ETC_DIR', 'C:\\opt\\ros\\humble\\x64\\etc\\ros'), ('ROS_LOCALHOST_ONLY', '0'), ('ROS_PYTHON_VERSION', '3'), ('ROS_VERSION', '2'), ('RUBY_DLL_PATH', 'C:\\opt\\ros\\humble\\x64\\opt\\rviz_ogre_vendor\\bin;C:\\opt\\ros\\humble\\x64\\bin;c:\\opt\\ros\\humble\\x64\\opt\\rviz_ogre_vendor\\bin;c:\\opt\\ros\\humble\\x64\\bin'), ('SDF_PATH', 'C:\\opt\\ros\\humble\\x64\\share\\sdformat\\1.6;c:\\opt\\ros\\humble\\x64\\share\\sdformat\\1.6'), ('SESSIONNAME', 'Console'), ('SystemDrive', 'C:'), ('SystemRoot', 'C:\\windows'), ('TEMP', 'C:\\Users\\ENGR-U~1\\AppData\\Local\\Temp'), ('TMP', 'C:\\Users\\ENGR-U~1\\AppData\\Local\\Temp'), ('UCRTVersion', '10.0.16299.0'), ('UniversalCRTSdkDir', 'C:\\Program Files (x86)\\Windows Kits\\10\\'), ('USERDNSDOMAIN', 'MSMYID.UGA.EDU'), ('USERDOMAIN', 'MYID'), ('USERDOMAIN_ROAMINGPROFILE', 'MYID'), ('USERNAME', 'engr-ugaif'), ('USERPROFILE', 'C:\\Users\\engr-ugaif'), ('VCIDEInstallDir', 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\VC\\'), ('VCINSTALLDIR', 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\'), ('VCPKG_DEFAULT_TRIPLET', 'x64-windows'), ('VCPKG_ROOT', 'C:\\opt\\ros\\humble\\x64\\tools\\vcpkg'), ('VCToolsInstallDir', 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\'), ('VCToolsRedistDir', 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Redist\\MSVC\\14.29.30133\\'), ('VCToolsVersion', '14.29.30133'), ('VisualStudioVersion', '16.0'), ('VS160COMNTOOLS', 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\Tools\\'), ('VSCMD_ARG_app_plat', 'Desktop'), ('VSCMD_ARG_HOST_ARCH', 'x64'), ('VSCMD_ARG_TGT_ARCH', 'x64'), ('VSCMD_VER', '16.11.20'), ('VSINSTALLDIR', 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\'), ('VXIPNPPATH', 'C:\\Program Files (x86)\\IVI Foundation\\VISA\\'), ('VXIPNPPATH64', 'C:\\Program Files\\IVI Foundation\\VISA\\'), ('windir', 'C:\\windows'), ('WindowsLibPath', 'C:\\Program Files (x86)\\Windows Kits\\10\\UnionMetadata\\10.0.16299.0;C:\\Program Files (x86)\\Windows Kits\\10\\References\\10.0.16299.0'), ('WindowsSdkBinPath', 'C:\\Program Files (x86)\\Windows Kits\\10\\bin\\'), ('WindowsSdkDir', 'C:\\Program Files (x86)\\Windows Kits\\10\\'), ('WindowsSDKLibVersion', '10.0.16299.0\\'), ('WindowsSdkVerBinPath', 'C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.16299.0\\'), ('WindowsSDKVersion', '10.0.16299.0\\'), ('__devinit_path', 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\Tools\\devinit\\devinit.exe'), ('__DOTNET_ADD_64BIT', '1'), ('__DOTNET_PREFERRED_BITNESS', '64'), ('__VSCMD_PREINIT_PATH', 'C:\\Program Files\\National Instruments\\Shared\\OpenVINO\\;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\IVI Foundation\\VISA\\WinNT\\Bin\\;C:\\Program Files\\IVI Foundation\\VISA\\Win64\\Bin\\;C:\\Program Files (x86)\\National Instruments\\Shared\\LabVIEW CLI;C:\\Program Files (x86)\\IVI Foundation\\VISA\\WinNT\\Bin;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\engr-ugaif\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Users\\engr-ugaif\\AppData\\Local\\Programs\\Microsoft VS Code\\bin')]), 'shell': False}
+[19.829000] (-) TimerEvent: {}
+[19.938000] (-) TimerEvent: {}
+[20.047000] (mediapipe_ros) StdoutLine: {'line': b'-- Installing: C:/Users/engr-ugaif/ros2_ws/install/mediapipe_ros/share/mediapipe_ros/environment/pythonpath.bat\n'}
+[20.047000] (-) TimerEvent: {}
+[20.047000] (mediapipe_ros) StdoutLine: {'line': b'-- Installing: C:/Users/engr-ugaif/ros2_ws/install/mediapipe_ros/share/mediapipe_ros/environment/pythonpath.dsv\n'}
+[20.047000] (mediapipe_ros) StdoutLine: {'line': b'-- Installing: C:/Users/engr-ugaif/ros2_ws/install/mediapipe_ros/Lib/site-packages/mediapipe_ros-0.1.0-py3.10.egg-info\n'}
+[20.047000] (mediapipe_ros) StdoutLine: {'line': b'-- Installing: C:/Users/engr-ugaif/ros2_ws/install/mediapipe_ros/Lib/site-packages/mediapipe_ros-0.1.0-py3.10.egg-info/dependency_links.txt\n'}
+[20.063000] (mediapipe_ros) StdoutLine: {'line': b'-- Installing: C:/Users/engr-ugaif/ros2_ws/install/mediapipe_ros/Lib/site-packages/mediapipe_ros-0.1.0-py3.10.egg-info/PKG-INFO\n'}
+[20.063000] (mediapipe_ros) StdoutLine: {'line': b'-- Installing: C:/Users/engr-ugaif/ros2_ws/install/mediapipe_ros/Lib/site-packages/mediapipe_ros-0.1.0-py3.10.egg-info/SOURCES.txt\n'}
+[20.063000] (mediapipe_ros) StdoutLine: {'line': b'-- Installing: C:/Users/engr-ugaif/ros2_ws/install/mediapipe_ros/Lib/site-packages/mediapipe_ros-0.1.0-py3.10.egg-info/top_level.txt\n'}
+[20.079000] (mediapipe_ros) StdoutLine: {'line': b'-- Installing: C:/Users/engr-ugaif/ros2_ws/install/mediapipe_ros/Lib/site-packages/mediapipe_ros\n'}
+[20.079000] (mediapipe_ros) StdoutLine: {'line': b'-- Installing: C:/Users/engr-ugaif/ros2_ws/install/mediapipe_ros/Lib/site-packages/mediapipe_ros/__init__.py\n'}
+[20.157000] (-) TimerEvent: {}
+[20.188000] (mediapipe_ros) StdoutLine: {'line': b"Listing 'C:/Users/engr-ugaif/ros2_ws/install/mediapipe_ros/Lib/site-packages/mediapipe_ros'...\r\n"}
+[20.188000] (mediapipe_ros) StdoutLine: {'line': b"Compiling 'C:/Users/engr-ugaif/ros2_ws/install/mediapipe_ros/Lib/site-packages/mediapipe_ros\\\\__init__.py'...\r\n"}
+[20.204000] (mediapipe_ros) StdoutLine: {'line': b'-- Installing: C:/Users/engr-ugaif/ros2_ws/install/mediapipe_ros/lib/mediapipe_ros/pose_detector\n'}
+[20.204000] (mediapipe_ros) StdoutLine: {'line': b'-- Installing: C:/Users/engr-ugaif/ros2_ws/install/mediapipe_ros/share/ament_index/resource_index/package_run_dependencies/mediapipe_ros\n'}
+[20.219000] (mediapipe_ros) StdoutLine: {'line': b'-- Installing: C:/Users/engr-ugaif/ros2_ws/install/mediapipe_ros/share/ament_index/resource_index/parent_prefix_path/mediapipe_ros\n'}
+[20.219000] (mediapipe_ros) StdoutLine: {'line': b'-- Installing: C:/Users/engr-ugaif/ros2_ws/install/mediapipe_ros/share/mediapipe_ros/environment/ament_prefix_path.bat\n'}
+[20.219000] (mediapipe_ros) StdoutLine: {'line': b'-- Installing: C:/Users/engr-ugaif/ros2_ws/install/mediapipe_ros/share/mediapipe_ros/environment/ament_prefix_path.dsv\n'}
+[20.235000] (mediapipe_ros) StdoutLine: {'line': b'-- Installing: C:/Users/engr-ugaif/ros2_ws/install/mediapipe_ros/share/mediapipe_ros/environment/path.bat\n'}
+[20.235000] (mediapipe_ros) StdoutLine: {'line': b'-- Installing: C:/Users/engr-ugaif/ros2_ws/install/mediapipe_ros/share/mediapipe_ros/environment/path.dsv\n'}
+[20.235000] (mediapipe_ros) StdoutLine: {'line': b'-- Installing: C:/Users/engr-ugaif/ros2_ws/install/mediapipe_ros/share/mediapipe_ros/local_setup.bat\n'}
+[20.235000] (mediapipe_ros) StdoutLine: {'line': b'-- Installing: C:/Users/engr-ugaif/ros2_ws/install/mediapipe_ros/share/mediapipe_ros/local_setup.dsv\n'}
+[20.250000] (mediapipe_ros) StdoutLine: {'line': b'-- Installing: C:/Users/engr-ugaif/ros2_ws/install/mediapipe_ros/share/mediapipe_ros/package.dsv\n'}
+[20.250000] (mediapipe_ros) StdoutLine: {'line': b'-- Installing: C:/Users/engr-ugaif/ros2_ws/install/mediapipe_ros/share/ament_index/resource_index/packages/mediapipe_ros\n'}
+[20.250000] (mediapipe_ros) StdoutLine: {'line': b'-- Installing: C:/Users/engr-ugaif/ros2_ws/install/mediapipe_ros/share/mediapipe_ros/cmake/mediapipe_rosConfig.cmake\n'}
+[20.250000] (mediapipe_ros) StdoutLine: {'line': b'-- Installing: C:/Users/engr-ugaif/ros2_ws/install/mediapipe_ros/share/mediapipe_ros/cmake/mediapipe_rosConfig-version.cmake\n'}
+[20.266000] (mediapipe_ros) StdoutLine: {'line': b'-- Installing: C:/Users/engr-ugaif/ros2_ws/install/mediapipe_ros/share/mediapipe_ros/package.xml\n'}
+[20.266000] (-) TimerEvent: {}
+[20.282000] (mediapipe_ros) CommandEnded: {'returncode': 0}
+[20.391000] (-) TimerEvent: {}
+[20.469000] (mediapipe_ros) JobEnded: {'identifier': 'mediapipe_ros', 'rc': 0}
+[20.469000] (-) EventReactorShutdown: {}
