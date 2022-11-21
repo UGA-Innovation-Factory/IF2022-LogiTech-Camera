@@ -32,17 +32,17 @@ from rclpy.node import Node
 from sensor_msgs.msg import CompressedImage
 
 
-class PoseDetector(Node):
+class HandDetector(Node):
 
     def __init__(self, **kwargs):
-        super().__init__(kwargs.get('node_name', 'pose_detector'))
+        super().__init__(kwargs.get('node_name', 'hand_detector'))
 
         self.image_subscription = self.create_subscription(
           CompressedImage, kwargs.get('image_topic', '/image_raw'), self.image_callback, 10)
         self.image_subscription
 
         self.cv_bridge = CvBridge()
-        self.pose = mp_hands.Hands(
+        self.hand = mp_hands.Hands(
             model_complexity=0,
             min_detection_confidence=0.5,
             min_tracking_confidence=0.5)
@@ -50,7 +50,7 @@ class PoseDetector(Node):
     def image_callback(self, msg):
         image = self.cv_bridge.compressed_imgmsg_to_cv2(msg)
 
-        results = self.pose.process(image)
+        results = self.hand.process(image)
 
         if results.multi_hand_landmarks:
             for hand_landmarks in results.multi_hand_landmarks:
@@ -61,7 +61,7 @@ class PoseDetector(Node):
                     mp_drawing_styles.get_default_hand_landmarks_style(),
                     mp_drawing_styles.get_default_hand_connections_style())
 
-        cv2.imshow('Pose Detector', image)
+        cv2.imshow('Hand Detector', image)
         if cv2.waitKey(5) & 0xFF == 27:
             rclpy.shutdown()
 
@@ -69,12 +69,12 @@ class PoseDetector(Node):
 def main(args=None):
     rclpy.init(args=args)
 
-    parser = argparse.ArgumentParser(prog='pose_detector')
+    parser = argparse.ArgumentParser(prog='hand_detector')
 
     parser.add_argument(
         '--node-name',
         nargs='?',
-        default='pose_detector',
+        default='hand_detector',
         help='node name to be used')
 
     parser.add_argument(
@@ -85,11 +85,11 @@ def main(args=None):
 
     options = parser.parse_args(args)
 
-    pose_detector = PoseDetector(
+    hand_detector = HandDetector(
         node_name=options.node_name,
         image_topic=options.image_topic)
 
-    rclpy.spin(pose_detector)
+    rclpy.spin(hand_detector)
 
     rclpy.shutdown()
 
