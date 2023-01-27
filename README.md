@@ -5,7 +5,7 @@
 	1. probably `cd C:\Users\engr-ugaif\IF2022-ros-sensors-workflow`
 2. navigate to ros-ecosystem directory
 	1. `cd ros-ecosystem`
-3. run the install script 
+3. run the setup script (activates ROS2 in your local environment)
 	1. `.\install\setup.ps1`
 4. build the ROS2 packages (make sure you are in the ros-ecosystem directory)
 	1. `colcon build --merge-install`
@@ -19,8 +19,8 @@
 1. open PowerShell
 2. navigate to sensors-workflow directory
 	1. probably `cd C:\Users\engr-ugaif\IF2022-ros-sensors-workflow`
-3. run the install script 
-	1. `.ros-ecosystem\install\setup.ps1`
+3. run the setup script 
+	1. `.\ros-ecosystem\install\setup.ps1`
 4. run the data processing script
 	1. `python3 .\scripts\hand_detector.py`
 
