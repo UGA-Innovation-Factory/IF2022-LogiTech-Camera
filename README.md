@@ -25,7 +25,7 @@
 	1. `python3 .\scripts\hand_detector.py`
 
 ## Notes
-- The way ROS2 works is that you have to activate the environment on a per-session basis. Every time you open up a new terminal/powershell window you have to run `.\install\setup.ps1` (or for cmd run `.\install\setup.bat)
+- The way ROS2 works is that you have to activate the environment on a per-session basis. Every time you open up a new terminal/powershell window you have to run `.\install\setup.ps1` (or for cmd run `.\install\setup.bat`)
 - Every time you change the code for a package you have to build the package. This can be done by `colcon build --merge-install` (which builds every packages)
 - If you want to make your own package, run `ros2 pkg create --build-type ament_python --node-name my_executable_name my_package_name`
 - Make sure to keep track of where you're running commands
