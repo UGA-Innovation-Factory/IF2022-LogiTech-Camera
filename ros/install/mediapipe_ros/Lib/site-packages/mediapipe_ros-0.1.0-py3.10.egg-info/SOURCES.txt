@@ -1,6 +1,0 @@
-setup.py
-mediapipe_ros/__init__.py
-mediapipe_ros.egg-info/PKG-INFO
-mediapipe_ros.egg-info/SOURCES.txt
-mediapipe_ros.egg-info/dependency_links.txt
-mediapipe_ros.egg-info/top_level.txt

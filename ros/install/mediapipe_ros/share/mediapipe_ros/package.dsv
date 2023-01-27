@@ -1,9 +1,0 @@
-source;share\mediapipe_ros\hook\cmake_prefix_path.ps1
-source;share\mediapipe_ros\hook\cmake_prefix_path.bat
-source;share\mediapipe_ros\hook\cmake_prefix_path.dsv
-source;share\mediapipe_ros\hook\pythonpath.ps1
-source;share\mediapipe_ros\hook\pythonpath.bat
-source;share\mediapipe_ros\hook\pythonpath.dsv
-source;share/mediapipe_ros/local_setup.bat
-source;share/mediapipe_ros/local_setup.dsv
-source;share/mediapipe_ros/local_setup.ps1

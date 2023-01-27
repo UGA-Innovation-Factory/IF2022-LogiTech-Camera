@@ -1,6 +1,0 @@
-Invoking command in 'C:\Users\engr-ugaif\ros2_ws\build\mediapipe_ros': C:\opt\ros\humble\x64\Scripts\cmake.EXE C:\Users\engr-ugaif\ros2_ws\src\ros2_mediapipe -DCMAKE_INSTALL_PREFIX=C:\Users\engr-ugaif\ros2_ws\install\mediapipe_ros -G Visual Studio 16 2019
-Invoked command in 'C:\Users\engr-ugaif\ros2_ws\build\mediapipe_ros' returned '0': C:\opt\ros\humble\x64\Scripts\cmake.EXE C:\Users\engr-ugaif\ros2_ws\src\ros2_mediapipe -DCMAKE_INSTALL_PREFIX=C:\Users\engr-ugaif\ros2_ws\install\mediapipe_ros -G Visual Studio 16 2019
-Invoking command in 'C:\Users\engr-ugaif\ros2_ws\build\mediapipe_ros': CL=/MP C:\opt\ros\humble\x64\Scripts\cmake.EXE --build C:\Users\engr-ugaif\ros2_ws\build\mediapipe_ros --config Release
-Invoked command in 'C:\Users\engr-ugaif\ros2_ws\build\mediapipe_ros' returned '0': CL=/MP C:\opt\ros\humble\x64\Scripts\cmake.EXE --build C:\Users\engr-ugaif\ros2_ws\build\mediapipe_ros --config Release
-Invoking command in 'C:\Users\engr-ugaif\ros2_ws\build\mediapipe_ros': C:\opt\ros\humble\x64\Scripts\cmake.EXE --install C:\Users\engr-ugaif\ros2_ws\build\mediapipe_ros --config Release
-Invoked command in 'C:\Users\engr-ugaif\ros2_ws\build\mediapipe_ros' returned '0': C:\opt\ros\humble\x64\Scripts\cmake.EXE --install C:\Users\engr-ugaif\ros2_ws\build\mediapipe_ros --config Release
