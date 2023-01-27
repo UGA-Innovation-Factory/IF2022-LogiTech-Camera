@@ -30,3 +30,7 @@
 - If you want to make your own package, run `ros2 pkg create --build-type ament_python --node-name my_executable_name my_package_name`
 - Make sure to keep track of where you're running commands
 	- If running the build command, make sure you're in the `ros-ecosystem` directory. Otherwise, unwanted install, log, and build folders are created in random directories.
+
+
+## Demo
+![demo](assets/demo.gif)
