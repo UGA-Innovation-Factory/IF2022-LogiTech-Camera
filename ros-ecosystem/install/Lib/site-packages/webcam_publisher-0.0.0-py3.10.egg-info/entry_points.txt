@@ -1,0 +1,3 @@
+[console_scripts]
+pub = webcam_publisher.cam_script:main
+

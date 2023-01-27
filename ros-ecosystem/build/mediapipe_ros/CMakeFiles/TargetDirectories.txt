@@ -1,0 +1,8 @@
+C:/Users/engr-ugaif/ros2_ws/build/mediapipe_ros/CMakeFiles/uninstall.dir
+C:/Users/engr-ugaif/ros2_ws/build/mediapipe_ros/CMakeFiles/mediapipe_ros_uninstall.dir
+C:/Users/engr-ugaif/ros2_ws/build/mediapipe_ros/CMakeFiles/ament_cmake_python_copy_mediapipe_ros.dir
+C:/Users/engr-ugaif/ros2_ws/build/mediapipe_ros/CMakeFiles/ament_cmake_python_build_mediapipe_ros_egg.dir
+C:/Users/engr-ugaif/ros2_ws/build/mediapipe_ros/CMakeFiles/RUN_TESTS.dir
+C:/Users/engr-ugaif/ros2_ws/build/mediapipe_ros/CMakeFiles/INSTALL.dir
+C:/Users/engr-ugaif/ros2_ws/build/mediapipe_ros/CMakeFiles/ALL_BUILD.dir
+C:/Users/engr-ugaif/ros2_ws/build/mediapipe_ros/CMakeFiles/ZERO_CHECK.dir

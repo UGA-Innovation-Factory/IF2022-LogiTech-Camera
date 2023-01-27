@@ -1,0 +1,33 @@
+running egg_info
+creating ..\..\build\webcam_capture\webcam_capture.egg-info
+writing ..\..\build\webcam_capture\webcam_capture.egg-info\PKG-INFO
+writing dependency_links to ..\..\build\webcam_capture\webcam_capture.egg-info\dependency_links.txt
+writing entry points to ..\..\build\webcam_capture\webcam_capture.egg-info\entry_points.txt
+writing requirements to ..\..\build\webcam_capture\webcam_capture.egg-info\requires.txt
+writing top-level names to ..\..\build\webcam_capture\webcam_capture.egg-info\top_level.txt
+writing manifest file '..\..\build\webcam_capture\webcam_capture.egg-info\SOURCES.txt'
+reading manifest file '..\..\build\webcam_capture\webcam_capture.egg-info\SOURCES.txt'
+writing manifest file '..\..\build\webcam_capture\webcam_capture.egg-info\SOURCES.txt'
+running build
+running build_py
+creating C:\Users\engr-ugaif\IF2022-ros-sensors-workflow\ros-ecosystem\build\webcam_capture\build
+creating C:\Users\engr-ugaif\IF2022-ros-sensors-workflow\ros-ecosystem\build\webcam_capture\build\lib
+creating C:\Users\engr-ugaif\IF2022-ros-sensors-workflow\ros-ecosystem\build\webcam_capture\build\lib\webcam_capture
+copying webcam_capture\webcab_publisher.py -> C:\Users\engr-ugaif\IF2022-ros-sensors-workflow\ros-ecosystem\build\webcam_capture\build\lib\webcam_capture
+copying webcam_capture\__init__.py -> C:\Users\engr-ugaif\IF2022-ros-sensors-workflow\ros-ecosystem\build\webcam_capture\build\lib\webcam_capture
+running install
+running install_lib
+creating C:\Users\engr-ugaif\IF2022-ros-sensors-workflow\ros-ecosystem\install\Lib\site-packages\webcam_capture
+copying C:\Users\engr-ugaif\IF2022-ros-sensors-workflow\ros-ecosystem\build\webcam_capture\build\lib\webcam_capture\webcab_publisher.py -> C:\Users\engr-ugaif\IF2022-ros-sensors-workflow\ros-ecosystem\install\Lib\site-packages\webcam_capture
+copying C:\Users\engr-ugaif\IF2022-ros-sensors-workflow\ros-ecosystem\build\webcam_capture\build\lib\webcam_capture\__init__.py -> C:\Users\engr-ugaif\IF2022-ros-sensors-workflow\ros-ecosystem\install\Lib\site-packages\webcam_capture
+byte-compiling C:\Users\engr-ugaif\IF2022-ros-sensors-workflow\ros-ecosystem\install\Lib\site-packages\webcam_capture\webcab_publisher.py to webcab_publisher.cpython-310.pyc
+byte-compiling C:\Users\engr-ugaif\IF2022-ros-sensors-workflow\ros-ecosystem\install\Lib\site-packages\webcam_capture\__init__.py to __init__.cpython-310.pyc
+running install_data
+copying resource\webcam_capture -> C:\Users\engr-ugaif\IF2022-ros-sensors-workflow\ros-ecosystem\install\share\ament_index\resource_index\packages
+copying package.xml -> C:\Users\engr-ugaif\IF2022-ros-sensors-workflow\ros-ecosystem\install\share\webcam_capture
+running install_egg_info
+Copying ..\..\build\webcam_capture\webcam_capture.egg-info to C:\Users\engr-ugaif\IF2022-ros-sensors-workflow\ros-ecosystem\install\Lib\site-packages\webcam_capture-0.0.0-py3.10.egg-info
+running install_scripts
+Installing webcab_publisher-script.py script to C:\Users\engr-ugaif\IF2022-ros-sensors-workflow\ros-ecosystem\install\lib\webcam_capture
+Installing webcab_publisher.exe script to C:\Users\engr-ugaif\IF2022-ros-sensors-workflow\ros-ecosystem\install\lib\webcam_capture
+writing list of installed files to 'C:\Users\engr-ugaif\IF2022-ros-sensors-workflow\ros-ecosystem\build\webcam_capture\install.log'

@@ -1,0 +1,30 @@
+[3.437s] Invoking command in 'C:\Users\engr-ugaif\IF2022-ros-sensors-workflow\ros-ecosystem\src\webcam_capture': PYTHONPATH=C:\Users\engr-ugaif\IF2022-ros-sensors-workflow\ros-ecosystem\install\Lib\site-packages;%PYTHONPATH% c:\opt\ros\humble\x64\python.exe setup.py egg_info --egg-base ..\..\build\webcam_capture build --build-base C:\Users\engr-ugaif\IF2022-ros-sensors-workflow\ros-ecosystem\build\webcam_capture\build install --prefix C:\Users\engr-ugaif\IF2022-ros-sensors-workflow\ros-ecosystem\install --record C:\Users\engr-ugaif\IF2022-ros-sensors-workflow\ros-ecosystem\build\webcam_capture\install.log --single-version-externally-managed
+[4.609s] running egg_info
+[4.609s] writing ..\..\build\webcam_capture\webcam_capture.egg-info\PKG-INFO
+[4.609s] writing dependency_links to ..\..\build\webcam_capture\webcam_capture.egg-info\dependency_links.txt
+[4.609s] writing entry points to ..\..\build\webcam_capture\webcam_capture.egg-info\entry_points.txt
+[4.609s] writing requirements to ..\..\build\webcam_capture\webcam_capture.egg-info\requires.txt
+[4.609s] writing top-level names to ..\..\build\webcam_capture\webcam_capture.egg-info\top_level.txt
+[4.625s] reading manifest file '..\..\build\webcam_capture\webcam_capture.egg-info\SOURCES.txt'
+[4.625s] writing manifest file '..\..\build\webcam_capture\webcam_capture.egg-info\SOURCES.txt'
+[4.625s] running build
+[4.625s] running build_py
+[4.625s] copying webcam_capture\publisher.py -> C:\Users\engr-ugaif\IF2022-ros-sensors-workflow\ros-ecosystem\build\webcam_capture\build\lib\webcam_capture
+[4.625s] copying webcam_capture\__init__.py -> C:\Users\engr-ugaif\IF2022-ros-sensors-workflow\ros-ecosystem\build\webcam_capture\build\lib\webcam_capture
+[4.625s] running install
+[4.625s] running install_lib
+[4.625s] copying C:\Users\engr-ugaif\IF2022-ros-sensors-workflow\ros-ecosystem\build\webcam_capture\build\lib\webcam_capture\publisher.py -> C:\Users\engr-ugaif\IF2022-ros-sensors-workflow\ros-ecosystem\install\Lib\site-packages\webcam_capture
+[4.640s] copying C:\Users\engr-ugaif\IF2022-ros-sensors-workflow\ros-ecosystem\build\webcam_capture\build\lib\webcam_capture\__init__.py -> C:\Users\engr-ugaif\IF2022-ros-sensors-workflow\ros-ecosystem\install\Lib\site-packages\webcam_capture
+[4.640s] byte-compiling C:\Users\engr-ugaif\IF2022-ros-sensors-workflow\ros-ecosystem\install\Lib\site-packages\webcam_capture\publisher.py to publisher.cpython-310.pyc
+[4.656s] byte-compiling C:\Users\engr-ugaif\IF2022-ros-sensors-workflow\ros-ecosystem\install\Lib\site-packages\webcam_capture\__init__.py to __init__.cpython-310.pyc
+[4.656s] running install_data
+[4.656s] copying resource\webcam_capture -> C:\Users\engr-ugaif\IF2022-ros-sensors-workflow\ros-ecosystem\install\share\ament_index\resource_index\packages
+[4.656s] copying package.xml -> C:\Users\engr-ugaif\IF2022-ros-sensors-workflow\ros-ecosystem\install\share\webcam_capture
+[4.656s] running install_egg_info
+[4.656s] removing 'C:\Users\engr-ugaif\IF2022-ros-sensors-workflow\ros-ecosystem\install\Lib\site-packages\webcam_capture-0.0.0-py3.10.egg-info' (and everything under it)
+[4.672s] Copying ..\..\build\webcam_capture\webcam_capture.egg-info to C:\Users\engr-ugaif\IF2022-ros-sensors-workflow\ros-ecosystem\install\Lib\site-packages\webcam_capture-0.0.0-py3.10.egg-info
+[4.687s] running install_scripts
+[4.734s] Installing publisher-script.py script to C:\Users\engr-ugaif\IF2022-ros-sensors-workflow\ros-ecosystem\install\lib\webcam_capture
+[4.734s] Installing publisher.exe script to C:\Users\engr-ugaif\IF2022-ros-sensors-workflow\ros-ecosystem\install\lib\webcam_capture
+[4.750s] writing list of installed files to 'C:\Users\engr-ugaif\IF2022-ros-sensors-workflow\ros-ecosystem\build\webcam_capture\install.log'
+[4.781s] Invoked command in 'C:\Users\engr-ugaif\IF2022-ros-sensors-workflow\ros-ecosystem\src\webcam_capture' returned '0': PYTHONPATH=C:\Users\engr-ugaif\IF2022-ros-sensors-workflow\ros-ecosystem\install\Lib\site-packages;%PYTHONPATH% c:\opt\ros\humble\x64\python.exe setup.py egg_info --egg-base ..\..\build\webcam_capture build --build-base C:\Users\engr-ugaif\IF2022-ros-sensors-workflow\ros-ecosystem\build\webcam_capture\build install --prefix C:\Users\engr-ugaif\IF2022-ros-sensors-workflow\ros-ecosystem\install --record C:\Users\engr-ugaif\IF2022-ros-sensors-workflow\ros-ecosystem\build\webcam_capture\install.log --single-version-externally-managed
