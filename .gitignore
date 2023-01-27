@@ -1,4 +1,4 @@
 %HOMEDRIVE%%HOMEPATH%
 ros-ecosystem/install/**
+ros-ecosystem/build/**
 ros-ecosystem/log/**
-Install/**
