@@ -1,0 +1,7 @@
+Both of these files were created by following an instructables guide. Should this code work it can be easily modified for multiple load cell systems.
+Currently this code will only function by utilizing one load cell. Additionally the instructables code utilized a library found on github in order to have the system
+operate like an actual scale. Both links utilized in the creation of this code are found in both files as well as given below. 
+
+
+https://github.com/bogde/HX711
+https://www.instructables.com/Arduino-Scale-With-5kg-Load-Cell-and-HX711-Amplifi/
