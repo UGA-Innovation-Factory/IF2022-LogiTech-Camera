@@ -5,11 +5,11 @@
 
 #include "HX711.h" //This is library
 
-#define calibration_factor = 0 ; // this can be found by running a callibration test
+#define calibration_factor  270.0 // this value was found by using the callibration test
 
 //For testing I am utilizing the Arduino closest to the wall and box 2B
-#define DOUT_PIN = 2;
-#define SCK_PIN = 3;
+#define DOUT_PIN  3
+#define SCK_PIN  2
 
 HX711 scale;
 
@@ -27,7 +27,7 @@ scale.tare(); //this is the same as the tare function on a normal scale
 void loop() {
   Serial.print("Reading: ");
   Serial.print(scale.get_units(),1); // this returns a float
-  // This currently also prints in pounds
+  // This currently prints in an incorrect manner and code must be written to output accurate results
 
 
 }
