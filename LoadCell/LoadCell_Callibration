@@ -4,8 +4,9 @@
 
 #include "HX711.h" //This is the library
 
-#define DOUT_PIN =;
-#define SCK_PIN =;
+//For testing I am utilizing the Arduino closest to the wall and box 2B
+#define DOUT_PIN = 2;
+#define SCK_PIN = 3;
 
 HX711 scale;
 
