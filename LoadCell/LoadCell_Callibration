@@ -5,11 +5,12 @@
 #include "HX711.h" //This is the library
 
 //For testing I am utilizing the Arduino closest to the wall and box 2B
-#define DOUT_PIN = 2;
-#define SCK_PIN = 3;
+#define DOUT_PIN 3
+#define SCK_PIN 2
 
 HX711 scale;
 
+//This is the factor that we are currently trying to find
 float calibration_factor = 0;
 
 void setup() {
@@ -23,7 +24,7 @@ void setup() {
 
   long zero_factor = scale.read_average(); // base reading
   
-}
+}// end setup
 
 void loop() {
   scale.set_scale(calibration_factor);
@@ -36,11 +37,11 @@ void loop() {
   //This is an interesting idea where we take user input and increment/decrement based on the displayed values
   if(Serial.available()) {
     char temp = Serial.read();
-    if(temp == 'a')
+    if(temp == 'a') {
       calibration_factor += 10;
   } else if(temp == 'z'){
     calibration_factor -= 10;
-  }
-  
+  } // end else if
+  }// end if
 
-}
+}// end void
