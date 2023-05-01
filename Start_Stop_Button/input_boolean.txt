@@ -1,0 +1,155 @@
+#This code was created utilizing code from the following website
+#https://community.home-assistant.io/t/stopwatch-with-start-stop-resume-lap-and-reset/443994/34
+
+input_boolean:
+  start_stopwatch:
+    # It triggers stopwatch to start/stop(pause)
+    name: Start/Stop Stopwatch
+#    initial: off
+  reset_stopwatch:
+    # It triggers stopwatch to reset
+    name: Reset
+#    initial: off
+  tictac_stopwatch:
+    # Pendulum of the stopwatch
+    name: TicTac
+#    initial: off
+  lap_stopwatch:
+    # It triggers stopwatch to show lap time
+    name: Lap
+    icon: mdi:camera-outline
+#    initial: off
+
+- trigger:
+    # Stopwatch sensor with Start, Stop/Pause, Reset and Lap features. Hundreds of second precission
+    - platform: gpio
+      pin: _
+      number :
+      from: "off"
+      to: "on"
+    entity_id: start
+    - platform: gpio
+      pin: _
+      number :
+      from: "on"
+      to: "off"
+    entity_id: stop
+    - platform: gpio
+      pin: _
+      number :
+      from: "off"
+      to: "on"
+    entity_id: reset
+    - platform: gpio
+      pin: _
+      number :
+      from: "off"
+      to: "on"
+    entity_id: lap
+    sensor:
+      - name: "Stopwatch"
+        state: >-
+          {% if is_state('input_boolean.reset_stopwatch','on') %}
+              {{ '00:00:00' }}
+          {% elif  is_state('input_boolean.start_stopwatch','off') and is_state('input_boolean.lap_stopwatch','off') %}
+              {% set value = as_timestamp(now()) - state_attr('sensor.stopwatch','initial_time') + state_attr('sensor.stopwatch','elapsed_time') %}
+              {{ value|float|timestamp_custom("%H:%M:%S", False) + '.' + ((value|float*100)%100)|round(0)|string }}
+          {% elif  is_state_attr('sensor.stopwatch','running','on') %}
+              {% set value = as_timestamp(now()) - state_attr('sensor.stopwatch','initial_time') + state_attr('sensor.stopwatch','elapsed_time') %}
+              {{ value|float|timestamp_custom("%H:%M:%S", False) |string }}
+          {% else %}
+              {{ states('sensor.stopwatch') }}
+          {% endif %}
+        icon: mdi:timer
+        attributes:
+          initial_time: >-
+            {% if is_state('input_boolean.start_stopwatch', 'on') and is_state_attr('sensor.stopwatch','running','off') %}
+              {{ as_timestamp(now()) }}
+            {% else %}
+              {{ state_attr('sensor.stopwatch','initial_time') }}
+            {% endif %}
+          elapsed_time: >-
+            {% if is_state('input_boolean.reset_stopwatch','on') %}
+              {{ 0 }}
+            {% elif is_state('input_boolean.start_stopwatch','off') and is_state('input_boolean.lap_stopwatch','off') %}
+              {{ as_timestamp(now()) - state_attr('sensor.stopwatch','initial_time') + state_attr('sensor.stopwatch','elapsed_time') }}
+            {% else %}
+              {{ state_attr('sensor.stopwatch','elapsed_time') }}
+            {% endif %}
+          running: >-
+            {{ states('input_boolean.start_stopwatch') }}
+          laps: >-
+            {% if is_state('input_boolean.reset_stopwatch','on') %}
+              {{[]}}
+            {% elif is_state('input_boolean.lap_stopwatch','on') and is_state_attr('sensor.stopwatch','running','on') %}
+              {% set data = namespace(laps=state_attr('sensor.stopwatch','laps')) %}
+              {% set value = as_timestamp(now()) - state_attr('sensor.stopwatch','initial_time') + state_attr('sensor.stopwatch','elapsed_time') %}
+              {% set data.laps = (data.laps + [value|float|timestamp_custom("%H:%M:%S", False) + '.' + ((value|float*100)%100)|round(0)|string]) %}
+              {{ data.laps }}
+            {% else %}
+              {{ state_attr('sensor.stopwatch','laps')}}
+            {% endif %}  
+  - trigger:
+    # Numeric conversion of input_boolean.tictac_stopwatch to show as a gauge in Frontend
+    - platform: state
+      entity_id: input_boolean.tictac_stopwatch
+    sensor:
+      - unique_id: tictac_stopwatch
+        name: >-
+          {% if states('input_boolean.tictac_stopwatch') == 'on' %}
+            Tic
+          {% else %}
+            Tac
+          {% endif %}
+        state: >-
+          {% if is_state('input_boolean.tictac_stopwatch','on') %}
+            {{ 1 }}
+          {% else %}
+            {{ 0 }}
+          {% endif %}
+        icon: >-
+          {% if states('input_boolean.tictac_stopwatch') == 'off' %}
+            mdi:clock-time-nine
+          {% else %}
+            mdi:clock-time-three-outline
+          {% endif %}
+  # Start/Stop(Pause) button
+  - button:
+    - unique_id: 'start_stop_stopwatch'
+      name: >-
+        {% if is_state('input_boolean.start_stopwatch','off') %}
+          {% if is_state('sensor.stopwatch','00:00:00') %}
+            Start
+          {% else %}
+            Resume
+          {% endif %}
+        {% else %}
+          Stop/Pause
+        {% endif %}
+      icon: >-
+        {% if states('input_boolean.start_stopwatch') == 'off' %}
+          mdi:play-circle-outline
+        {% else %}
+          mdi:stop-circle-outline
+        {% endif %}
+      press:
+        service: input_boolean.toggle
+        target:
+          entity_id: input_boolean.start_stopwatch
+
+automation:
+  - id: tic_tac_stopwatch
+    alias: "Tic Tac Stopwatch"
+    description: "It toggles input_boolean.tictac_stopwatch every second"
+    trigger:
+      - platform: time_pattern
+        seconds: /1
+    condition:
+      - condition: state
+        entity_id: input_boolean.start_stopwatch
+        state: 'on'
+    action:
+      - service: input_boolean.toggle
+        target:
+          entity_id: input_boolean.tictac_stopwatch
+    mode: single
